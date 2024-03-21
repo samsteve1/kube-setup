@@ -67,4 +67,5 @@ sudo install -m 755 runc.${PLATFORM} /usr/local/sbin/runc
 fi
 
 touch /tmp/container.txt
+mv config.toml /etc/containerd/config.tom
 exit
